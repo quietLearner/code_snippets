@@ -1,0 +1,25 @@
+https://www.youtube.com/watch?v=N5vscPTWKOk&list=PL-osiE80TeTt2d9bfVyTiXJA-UTHn6WwU&index=14
+
+pip list
+pip list -o
+
+pip install virtualenv
+
+
+cd any folder
+
+virtualenv project_1
+
+project_1\Scripts\activate
+
+deactivate
+
+#export modules
+pip freeze --local  > requirements.txt
+
+virtualenv project_2
+
+project_2\Scripts\activate
+
+#import modules
+pip install -r requirements.txt

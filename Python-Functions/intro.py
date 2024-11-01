@@ -43,3 +43,11 @@ print(*info)
 # print(**info)
 
 student_info(*courses, **info)
+
+
+def hello_func(greeting, name="you"):
+    return "{}, {}".format(greeting, name)
+
+
+print(hello_func("hello"))
+print(hello_func("hello", "Corey"))

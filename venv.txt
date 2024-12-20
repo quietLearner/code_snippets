@@ -23,3 +23,7 @@ project_2\Scripts\activate
 
 #import modules
 pip install -r requirements.txt
+
+hwo to handle mutiple projects
+https://www.youtube.com/watch?v=cY2NXB_Tqq0&list=PL-osiE80TeTt2d9bfVyTiXJA-UTHn6WwU&index=16
+

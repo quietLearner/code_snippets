@@ -1,6 +1,16 @@
 import re
 
-text_to_search = '''
+
+def print_matches(search, text):
+
+    pattern = re.compile(search, re.IGNORECASE)
+
+    matches = pattern.finditer(text)
+    for m in matches:
+        print(m)
+
+
+text_to_search = """
 abcdefghijklmnopqurtuvwxyz
 ABCDEFGHIJKLMNOPQRSTUVWXYZ
 1234567890
@@ -23,12 +33,23 @@ Mr Smith
 Ms Davis
 Mrs. Robinson
 Mr. T
-'''
+"""
 
-sentence = 'Start a sentence and then bring it to an end'
+sentence = "Start a sentence and then bring it to an end"
 
-pattern = re.compile(r'start', re.I)
+# r stands for raw string, search for abc in the sentence
+print_matches(r"abc", text_to_search)
 
-matches = pattern.search(sentence)
+print_matches(r"\bHa", text_to_search)
 
-print(matches)
+
+print_matches(r"^Start", sentence)
+
+print_matches(r"end$", sentence)
+
+
+# match phone numbers
+print_matches(r"\d{3}.\d{3}.\d{4}", text_to_search)
+
+# match Mr. and Mrs. names
+print_matches(r"M[rs]\.?\s[A-Z]\w*", text_to_search)

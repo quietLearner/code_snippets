@@ -4,10 +4,10 @@
 class Duck:
 
     def quack(self):
-        print('Quack, quack')
+        print("Quack, quack")
 
     def fly(self):
-        print('Flap, Flap!')
+        print("Flap, Flap!")
 
 
 class Person:
@@ -43,6 +43,7 @@ def quack_and_fly(thing):
     #         thing.bark()
     #     except AttributeError as e:
     #         print(e)
+
 
 d = Duck()
 

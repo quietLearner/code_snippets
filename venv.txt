@@ -27,3 +27,38 @@ pip install -r requirements.txt
 hwo to handle mutiple projects
 https://www.youtube.com/watch?v=cY2NXB_Tqq0&list=PL-osiE80TeTt2d9bfVyTiXJA-UTHn6WwU&index=16
 
+
+
+C:\Users\dtw20>python
+Python 3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import sys
+>>> sys.executable
+'C:\\Users\\dtw20\\AppData\\Local\\Programs\\Python\\Python311\\python.exe'
+>>> exit()
+
+
+echo %path%
+
+
+C:\Users\dtw20>pip list
+Package      Version
+------------ -------
+distlib      0.3.8
+filelock     3.16.1
+pip          24.2
+platformdirs 4.3.6
+setuptools   75.1.0
+virtualenv   20.26.6
+
+C:\Users\dtw20>pip show distlib
+Name: distlib
+Version: 0.3.8
+Summary: Distribution utilities
+Home-page: https://github.com/pypa/distlib
+Author: Vinay Sajip
+Author-email: vinay_sajip@red-dove.com
+License: PSF-2.0
+Location: C:\Users\dtw20\AppData\Local\Programs\Python\Python311\Lib\site-packages
+Requires:
+Required-by: virtualenv

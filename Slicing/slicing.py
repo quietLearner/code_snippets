@@ -68,6 +68,7 @@ print(all_but_last)
 sample_url = "http://coreyms.com"
 print(sample_url)
 
+
 # Reverse the url
 print(sample_url[::-1])
 
@@ -80,3 +81,6 @@ print(sample_url[7:])
 # Print the url without the http:// or the top level domain
 print(sample_url[7:-4])
 print(sample_url[7:-4])
+
+
+print(sample_url[0:1])

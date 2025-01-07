@@ -1,0 +1,4 @@
+This is a dummy content file.
+You can add any text you want here.
+This file is located at /d:/code_snippets/EAFP/my_file.txt.
+Feel free to modify it as needed.

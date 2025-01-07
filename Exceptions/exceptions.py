@@ -1,16 +1,36 @@
+from pathlib import Path
+import os
+
+# https://docs.python.org/3/library/exceptions.html
+
+# https://llego.dev/posts/properly-closing-files-python-even-exceptions/
+
+script_location = Path(__file__).absolute().parent
+file_location = script_location / "currupt_file.txt"
+
 
 try:
-    f = open('curruptfile.txt')
-    # if f.name == 'currupt_file.txt':
-    #     raise Exception
+    f = open(file_location, "r")
+    # var = bad_var
+    print(f.name)
+    if os.path.basename(f.name) == "currupt_file.txt":
+        raise Exception("This is a bad file")
+except FileNotFoundError as e:
+    print(e)
+    print("First!")
 except IOError as e:
-    print('First!')
+    print(e)
+    print("Secord!")
 except Exception as e:
-    print('Second')
+    print(e)
+    print("Thrid")
 else:
-    print(f.read())
-    f.close()
+    print("outside exception block", f.read())
+    # f.close()
 finally:
     print("Executing Finally...")
-
-print('End of program')
+    try:
+        f.close()
+    except:
+        pass
+    print("File Closed")

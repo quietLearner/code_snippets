@@ -45,8 +45,15 @@ class Manager(Employee):
             print("-->", emp.fullname())
 
 
+# method resolution order:
+# builtins.object -> Employee -> Developer
+
 # print(help(Developer))
 
+# (<class '__main__.Developer'>, <class '__main__.Employee'>, <class 'object'>)
+print(Developer.__mro__)
+
+print(__builtins__.object.__mro__)  # (<class 'object'>,)
 
 dev_1 = Developer("Corey", "Schafer", 50000, "Python")
 dev_2 = Developer("Test", "Employee", 60000, "Java")

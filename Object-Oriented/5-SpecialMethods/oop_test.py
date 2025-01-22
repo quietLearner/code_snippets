@@ -15,7 +15,7 @@ class Employee:
     def apply_raise(self):
         self.pay = int(self.pay * self.raise_amt)
 
-    # used for debugging and logging, at least has this method
+    # used for debugging and logging, at least has this method, used by other developers?
     def __repr__(self):
         return "Employee('{}', '{}', {})".format(self.first, self.last, self.pay)
 
@@ -46,6 +46,15 @@ print(emp_2)
 print(emp_1.__repr__())
 print(emp_1.__str__())
 
+# the following two lines are the same
 print(1 + 2)
 print(int.__add__(1, 2))
+
 print(str.__add__("a", "b"))
+
+# the following two lines are the same
+print(emp_1 + emp_2)
+print(emp_1.__add__(emp_2))
+
+print(len("test"))
+print(len(emp_1))

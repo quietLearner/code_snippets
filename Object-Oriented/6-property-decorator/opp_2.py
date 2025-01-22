@@ -7,20 +7,24 @@ class Employee:
         # we can use a method to get the email, but it is better to use a property decorator
         # self.email = first + "." + last + "@email.com"
 
-    @property
-    def fullname(self):
-        return "{} {}".format(self.first, self.last)
-
     # call this without parenthesis, not as a method
     @property
     def email(self):
         return "{}.{}@email.com".format(self.first, self.last)
+
+    @property
+    def fullname(self):
+        pass
 
     @fullname.setter
     def fullname(self, name):
         first, last = name.split(" ")
         self.first = first
         self.last = last
+
+    @fullname.getter
+    def fullname(self):
+        return "getter {} {}".format(self.first, self.last)
 
     @fullname.deleter
     def fullname(self):
@@ -38,7 +42,7 @@ print(emp_1.email)
 
 emp_1.fullname = "Corey Schafer"
 
-print(emp_1.first)
+# print(emp_1.first)
 print(emp_1.email)
 print(emp_1.fullname)
 
@@ -46,6 +50,6 @@ print(emp_1.fullname)
 
 del emp_1.fullname
 
-print(emp_1.first)
+# print(emp_1.first)
 print(emp_1.email)
 print(emp_1.fullname)

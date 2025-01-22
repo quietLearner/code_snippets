@@ -34,9 +34,9 @@ class Employee:
     def set_raise_amount(cls, amount):
         cls.raise_amount = amount
 
-    # alternative constructor
+    # alternative constructor, look into datetime module for more examples
     @classmethod
-    def from_string(cls, emp_str):
+    def create_instance(cls, emp_str):
         first, last, pay = emp_str.split("-")
         # Employee("Corey", "Schafer", 50000) is the same as cls(first, last, pay)!!
         return cls(first, last, pay)
@@ -57,6 +57,7 @@ Employee.set_raise_amount(1.05)
 
 Employee.raise_amount = 1.06
 
+
 emp_1.set_raise_amount(1.07)
 
 print(Employee.raise_amount)
@@ -73,7 +74,7 @@ new_emp_1 = Employee(first, last, pay)
 
 print(new_emp_1)
 
-new_emp_2 = Employee.from_string(emp_str_2)
+new_emp_2 = Employee.create_instance(emp_str_2)
 
 print(new_emp_2)
 

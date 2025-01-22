@@ -27,7 +27,7 @@ print("*" * 20)
 for num in my_nums:  # it start from 4, not 1
     print(num)
 
-for num in my_nums:
+for num in my_nums:  # it won't print anything, because it's already exhausted
     print(num)
 
 print("*" * 20)

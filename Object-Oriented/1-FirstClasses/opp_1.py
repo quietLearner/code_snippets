@@ -1,5 +1,6 @@
-class Employee:
-    pass
+# this is object here?
+class Employee(object):
+    print(object)
 
 
 emp_1 = Employee()
@@ -9,6 +10,7 @@ print(emp_1)
 print(emp_2)
 
 # instance variables
+# not efficient
 emp_1.first = "Corey"
 emp_1.last = "Schafer"
 emp_1.email = "Corey.Schafer@company.com"

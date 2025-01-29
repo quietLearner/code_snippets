@@ -1,0 +1,12 @@
+2025-01-29 15:22:28,325:ERROR:employee.py:__main__:11972:2036:divide:Tried to divide by zero
+Traceback (most recent call last):
+  File "d:\code_snippets\Logging-Basics\employee.py", line 40, in divide
+    result = x / y
+             ~~^~~
+ZeroDivisionError: division by zero
+2025-01-29 15:24:19,584:ERROR:employee.py:__main__:4648:13016:divide:Tried to divide by zero
+Traceback (most recent call last):
+  File "d:\code_snippets\Logging-Basics\employee.py", line 44, in divide
+    result = x / y
+             ~~^~~
+ZeroDivisionError: division by zero

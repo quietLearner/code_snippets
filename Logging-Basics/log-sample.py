@@ -1,5 +1,10 @@
-
 import logging
+from pathlib import Path
+
+script_path = Path(__file__).resolve().parent
+log_path = script_path / "test.log"
+
+# logging levels
 
 # DEBUG: Detailed information, typically of interest only when diagnosing problems.
 
@@ -11,8 +16,12 @@ import logging
 
 # CRITICAL: A serious error, indicating that the program itself may be unable to continue running.
 
-logging.basicConfig(filename='test.log', level=logging.DEBUG,
-                    format='%(asctime)s:%(levelname)s:%(message)s')
+logging.basicConfig(
+    filename=log_path,
+    level=logging.DEBUG,
+    format="%(asctime)s:%(name)s:%(funcName)s:%(process)s:%(levelname)s:%(message)s",
+    filemode="a",
+)
 
 
 def add(x, y):
@@ -39,13 +48,13 @@ num_1 = 20
 num_2 = 10
 
 add_result = add(num_1, num_2)
-logging.debug('Add: {} + {} = {}'.format(num_1, num_2, add_result))
+logging.debug("Add: {} + {} = {}".format(num_1, num_2, add_result))
 
 sub_result = subtract(num_1, num_2)
-logging.debug('Sub: {} - {} = {}'.format(num_1, num_2, sub_result))
+logging.debug("Sub: {} - {} = {}".format(num_1, num_2, sub_result))
 
 mul_result = multiply(num_1, num_2)
-logging.debug('Mul: {} * {} = {}'.format(num_1, num_2, mul_result))
+logging.debug("Mul: {} * {} = {}".format(num_1, num_2, mul_result))
 
 div_result = divide(num_1, num_2)
-logging.debug('Div: {} / {} = {}'.format(num_1, num_2, div_result))
+logging.info("Div: {} / {} = {}".format(num_1, num_2, div_result))

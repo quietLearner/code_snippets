@@ -22,7 +22,8 @@ print("Path()", Path())
 # dont understand this
 # for p in Path().iterdir():
 #     print(p)
-
+script_location = Path(__file__).absolute().parent
+file_location = script_location / "test.txt"
 
 my_dir = Path("PATHLIB")
 my_file = Path("file_1.txt")

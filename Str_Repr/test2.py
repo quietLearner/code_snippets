@@ -1,8 +1,15 @@
-a = [1,2,3,4]
-b = 'sample string'
+import datetime
 
-print str(a)
-print repr(a)
+a = [1, 2, 3, 4]
+b = "sample string"
 
-print str(b)
-print repr(b)
+print(str(a))  # make it look nice, for user
+print(repr(a))  # make it umambiguous, for developer
+
+print(str(b))
+print(repr(b))
+
+now = datetime.datetime.now()
+print(now)
+print(str(now))
+print(repr(now))

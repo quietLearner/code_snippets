@@ -1,0 +1,27 @@
+https://stackoverflow.com/questions/41573587/what-is-the-difference-between-venv-pyvenv-pyenv-virtualenv-virtualenvwrappe
+
+# install globally
+pip install pipenv
+
+
+pipenv install requests
+
+
+
+#activate this project's virtualenv, run pipenv shell.
+pipenv shell
+
+# install all  the packages, will change Pipfile and Pipfile.lock
+pipenv install -r requirements.txt
+
+
+pipenv install pytest --dev
+
+
+
+
+pipenv uninstall pytest
+pipenv uninstall --all
+
+#deactivate
+exit

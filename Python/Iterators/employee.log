@@ -1,0 +1,8 @@
+2023-10-01 08:00:00 - INFO - Employee ID: 12345 - Name: John Doe - Action: Clocked In
+2023-10-01 12:00:00 - INFO - Employee ID: 12345 - Name: John Doe - Action: Clocked Out
+2023-10-01 08:15:00 - INFO - Employee ID: 67890 - Name: Jane Smith - Action: Clocked In
+2023-10-01 17:00:00 - INFO - Employee ID: 67890 - Name: Jane Smith - Action: Clocked Out
+2023-10-02 08:05:00 - INFO - Employee ID: 12345 - Name: John Doe - Action: Clocked In
+2023-10-02 12:05:00 - INFO - Employee ID: 12345 - Name: John Doe - Action: Clocked Out
+2023-10-02 08:20:00 - INFO - Employee ID: 67890 - Name: Jane Smith - Action: Clocked In
+2023-10-02 17:05:00 - INFO - Employee ID: 67890 - Name: Jane Smith - Action: Clocked Out

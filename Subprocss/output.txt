@@ -1,0 +1,79 @@
+ Volume in drive D has no label.
+ Volume Serial Number is 0AD5-DE88
+
+ Directory of D:\code_snippets
+
+02/12/2025  02:20 PM    <DIR>          .
+02/12/2025  02:20 PM    <DIR>          ..
+09/19/2024  08:47 PM                80 .gitignore
+01/30/2025  10:12 AM    <DIR>          .venv
+02/11/2025  01:16 PM    <DIR>          .vscode
+08/30/2024  04:17 PM    <DIR>          atom-python
+12/20/2024  11:40 AM    <DIR>          automation
+01/22/2025  05:49 PM    <DIR>          beautifulsoup
+02/11/2025  09:19 AM    <DIR>          better_python
+08/30/2024  04:17 PM    <DIR>          closure
+01/09/2025  01:47 PM    <DIR>          closures
+08/30/2024  04:17 PM    <DIR>          combinations-permutations
+01/28/2025  07:16 PM    <DIR>          context_manager
+08/30/2024  04:17 PM    <DIR>          cron-tasks
+01/28/2025  11:45 AM    <DIR>          datetime
+01/09/2025  04:27 PM    <DIR>          decorators
+08/30/2024  04:17 PM    <DIR>          django_blog
+01/07/2025  01:59 PM    <DIR>          eafp
+08/30/2024  04:17 PM    <DIR>          ex-machina
+08/30/2024  04:17 PM    <DIR>          exceptions
+01/09/2025  12:31 PM    <DIR>          fc_functions
+01/31/2025  05:54 PM    <DIR>          flask
+01/30/2025  12:05 PM    <DIR>          for_else
+09/24/2024  09:19 PM    <DIR>          generators
+01/29/2025  05:06 PM    <DIR>          hide_secret
+08/30/2024  04:17 PM    <DIR>          idempotence
+08/30/2024  04:17 PM    <DIR>          list_comp
+08/30/2024  04:17 PM    <DIR>          logging-advanced
+01/29/2025  03:09 PM    <DIR>          logging-basics
+08/30/2024  04:17 PM    <DIR>          memoization
+08/30/2024  04:17 PM    <DIR>          mutable
+01/10/2025  12:34 PM    <DIR>          namedtuples
+08/30/2024  04:17 PM    <DIR>          object-oriented
+12/28/2024  04:17 PM    <DIR>          pathlib
+01/30/2025  12:31 PM    <DIR>          pillow
+01/30/2025  11:12 AM               160 pip.txt
+01/30/2025  11:56 AM    <DIR>          pipenv_sample
+08/30/2024  04:17 PM    <DIR>          python
+08/30/2024  04:17 PM    <DIR>          python-conditionals
+08/30/2024  04:17 PM    <DIR>          python-context-managers
+01/31/2025  04:15 PM    <DIR>          python-csv
+08/30/2024  04:17 PM    <DIR>          python-decorator-arguments
+08/30/2024  04:17 PM    <DIR>          python-dicts
+01/28/2025  08:56 PM    <DIR>          python-files
+08/30/2024  04:17 PM    <DIR>          python-functions
+08/30/2024  04:17 PM    <DIR>          python-future-date
+10/07/2024  07:46 AM    <DIR>          python-imports
+08/30/2024  04:17 PM    <DIR>          python-ints
+12/11/2024  11:14 AM    <DIR>          python-lists
+08/30/2024  04:17 PM    <DIR>          python-loops
+01/03/2025  06:09 PM    <DIR>          python-patreon-csv
+08/30/2024  04:17 PM    <DIR>          python-random
+08/30/2024  04:17 PM    <DIR>          python-regular-expressions
+01/31/2025  05:58 PM    <DIR>          python-set
+01/28/2025  08:52 PM    <DIR>          python-sqlite
+01/08/2025  12:34 PM    <DIR>          python-strings
+01/29/2025  06:11 PM    <DIR>          python-unit-testing
+08/30/2024  04:17 PM    <DIR>          regular-expressions
+02/06/2025  04:02 PM    <DIR>          requests
+02/06/2025  04:54 PM    <DIR>          requests-html
+08/30/2024  04:17 PM    <DIR>          scope
+02/11/2025  11:56 AM                28 short_cuts.txt
+08/30/2024  04:17 PM    <DIR>          slicing
+08/30/2024  04:17 PM    <DIR>          starting_code
+08/30/2024  04:17 PM    <DIR>          string interpolation
+08/30/2024  04:17 PM    <DIR>          string-formatting
+08/30/2024  04:17 PM    <DIR>          str_repr
+12/28/2024  05:43 PM    <DIR>          temp_dir
+08/30/2024  04:17 PM    <DIR>          terminal
+02/12/2025  03:11 PM    <DIR>          thread
+02/10/2025  02:30 PM    <DIR>          venv_builtin
+02/11/2025  10:07 AM                57 which_python.py
+               4 File(s)            325 bytes
+              68 Dir(s)  15,488,712,704 bytes free

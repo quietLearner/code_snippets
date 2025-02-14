@@ -7,3 +7,5 @@ s.txt
 script.txt
 
 .venv/
+
+**/*.env
